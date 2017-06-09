@@ -32,6 +32,8 @@ The program does the following:
 
 1. Each row contians one type of variable
 2. Each column contains one activity and one volunteer
+3. Column titles are intuitive and easy to understand
+4. Removed extra data not needed
     
     
     
