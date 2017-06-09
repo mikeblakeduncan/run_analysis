@@ -1,5 +1,5 @@
 ## Overview
-The program is called run_analysis and it takes the experiment data from 30 volunteers, who performed 6 activites wearing a Samsung Galaxy SII smart phone.  The output is a tidy set which has the average of each variable for each activity and each subject.
+The program is called run_analysis and it takes the experiment data from 30 volunteers, who performed 6 activites wearing a Samsung Galaxy SII smart phone.  The output is a tidy set which has the average of each variable that contained mean or standard deviation in the row name, for each activity and each subject.
 
 ## 'run_analysis' Explanation
 
