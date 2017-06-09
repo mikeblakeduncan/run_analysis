@@ -28,7 +28,10 @@ The program does the following:
 6. Re-labels the column, to include the activity name
 7. Writes a text file to the desktop
 
-    
+## Why the final output is tidydata
+
+1. Each row contians one type of variable
+2. Each column contains one activity and one volunteer
     
     
     
