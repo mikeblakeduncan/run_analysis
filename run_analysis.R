@@ -58,30 +58,3 @@ run_analysis <- function() {
         
 }
 
-## write.table(lapply(s,colMeans),file = "Finished.csv")
-
-## split the table into sub-tables by activity & volunteer; take mean
-## setwd(head_fold)
-## s <- split(TT_SLIM, list(TT_SLIM$Activity,TT_SLIM$Volunteer))
-## p <- lapply(s,colMeans)
-## write.table(p,file = "Finished.csv")
-
-
-## add descriptive names to the activities
-## TT_SLIM$Activity <- gsub("1","walking",TT_SLIM$Activity)
-## TT_SLIM$Activity <- gsub("2","walkingupstairs",TT_SLIM$Activity)
-## TT_SLIM$Activity <- gsub("3","walkingdownstairs",TT_SLIM$Activity)
-## TT_SLIM$Activity <- gsub("4","sitting",TT_SLIM$Activity)
-## TT_SLIM$Activity <- gsub("5","standing",TT_SLIM$Activity)
-## TT_SLIM$Activity <- gsub("6","laying",TT_SLIM$Activity)
-## lapply(s,colMeans)
-
-## write answer to folder
-## setwd(train_fold)
-## write.table(s,"Finished.xlsx")
-## sort(TTsubject$V1)
-
-
-## data <- read.table("Finished.csv", header = TRUE)
-## View(data)
-
